@@ -38,7 +38,7 @@ jobs:
             path: test-results.xml
 
     code-coverage:
-      name: Unit Testing
+      name: code coverage
       runs-on: ubuntu-latest
       steps:
       - name: Checkout Repository
